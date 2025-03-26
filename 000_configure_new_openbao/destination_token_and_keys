@@ -1,0 +1,19 @@
+{
+  "unseal_keys_b64": [
+    "V19KLN5cw4oXHI3fbIiSSeI8rN23232322111111111t",
+    "ca1Y/o6G05zskPagtvghu3fth5YHAdGr4BcimYkiTTx0",
+    "x4Ixy7c43j16uyfpefkdspokfpeodkfporkF3LUXvQCX"
+  ],
+  "unseal_keys_hex": [
+    "575f4a2cde5cc38a171claç~sça~lsça~slça~slaç~sl914420bc18ec62d997e6d",
+    "71ad58fe8slçdkslçdk39kdsdkçlsdçslkdsf6c60701d1abe017229989224d3c74",
+    "c78231cbb738de3d7abb21772d45ef4025d5sçldoewkd3-493-dsdms.dms.,dmc0"
+  ],
+  "unseal_shares": 3,
+  "unseal_threshold": 2,
+  "recovery_keys_b64": [],
+  "recovery_keys_hex": [],
+  "recovery_keys_shares": 0,
+  "recovery_keys_threshold": 0,
+  "root_token": "s.dpaiskdçlsdklskdldksldkslçW"
+}

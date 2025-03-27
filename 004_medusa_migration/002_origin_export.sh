@@ -15,6 +15,8 @@ export VAULT_TOKEN="$BAO_TOKEN_ORIGIN"
 
 cp /root/.medusa/config_origin.yaml /root/.medusa/config.yaml
 
+chmod 755 medusa
+
 ./medusa export users -f json -o users.json
 ./medusa export compartilhado -f json -o compartilhado.json
 ./medusa export openshift -f json -o openshift.json

@@ -45,7 +45,7 @@ do
 	  bao read --format=json auth/$id/role/$role_name|jq -r .data > $id.$role_name.json
            
           sed -i 's/"alias_name_source"\: "",/"alias_name_source"\: "serviceaccount_uid",/g' $id.$role_name.json
-	  sed -i "s/$URL_VAULT_ORIGEM/$URL_VAULT_DESTINO/g" $id.$role_name.json
+	  sed -i "s/$URL_BAO_ORIGIN/$URL_BAO_DESTINATION/g" $id.$role_name.json
 
           #grava no destination
 

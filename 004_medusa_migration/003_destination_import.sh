@@ -14,6 +14,8 @@ export VAULT_TOKEN="$BAO_TOKEN_DESTINATION"
 
 # import from files to destination.
 
+chmod 755 medusa
+
 cp /root/.medusa/config_destination.yaml /root/.medusa/config.yaml
 
 ./medusa import users users.json --insecure
